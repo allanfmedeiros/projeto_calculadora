@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Calculadora Básica</title>
+<meta charset="UTF-8">
+<script src="js/javascript.js"> </script>
+<link rel="stylesheet" href="css/css.css">
+</head>
+
+<body background="imagens/back.jpg">
+<center>
+<br>
+<form action="" method="POST" name="calc">	
+	<table id="calc" background="imagens/background4.jpg">
+<tr><td><center>
+<h1> Calculadora Básica <h1>
+	<input type="text" id="visor" id="visor" size="34"></input></tr></td>
+<tr><td>
+<center>
+<input class="img" type="button" name="um" class="num" value="1" onclick="calcNum(1)"/>
+<input class="img" type="button" name="dois" class="num" value="2" onclick="calcNum(2)"/>
+<input class="img" type="button" name="tres" class="num" value="3" onclick="calcNum(3)"/>
+<input class="img" type="button" name="dividir" value="/" onclick="calcParse('dividir')"/>
+<br>
+<input class="img" type="button" name="quatro" class="num" value="4" onclick="calcNum(4)"/>
+<input class="img" type="button" name="cinco" class="num" value="5" onclick="calcNum(5)"/>
+<input class="img" type="button" name="seis" class="num" value="6" onclick="calcNum(6)"/>
+<input class="img" type="button" name="multiplicar" class="oper" value="*" onclick="calcParse('multiplicar')"/>
+<br>
+<input class="img" type="button" name="sete" class="num" value="7" onclick="calcNum(7)"/>
+<input class="img" type="button" name="oito" class="num" value="8" onclick="calcNum(8)"/>
+<input class="img" type="button" name="nove" class="num" value="9" onclick="calcNum(9)"/>
+<input class="img" type="button" name="subtrair" class="oper" value="-" onclick="calcParse('subtrair')"/>
+<br>
+<input class="img" type="button" name="zero" class="num" value="0" onclick="calcNum(0)"/>
+<input class="img" type="button" name="ponto" class="num" value="." onclick="calcNum('.')"/>
+<input class="img" type="button" name="resultado" class="num" value="=" onclick="calcParse('resultado')"/>
+<input class="img" type="button" name="somar" class="oper" value="+" onclick="calcParse('somar')"/>
+<br>
+<input type="image" src="imagens/limpar.png" name="limpar" class="num" value="C" onclick="limpar()"/>
+<br>
+</table>
+</center>
+</form>
+</body>
+</html>

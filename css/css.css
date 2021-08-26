@@ -1,0 +1,44 @@
+*{
+	font-family:"Calibri", "Arial";
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+	font-size:35px;
+	color:black;
+	margin-top:20px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+input{
+	margin:12px;
+	padding:10px;
+	font-size:20px;
+}
+.img{
+	background:    #274e13;
+	background:    -webkit-linear-gradient(#6aa84f, #274e13 50%, #6aa84f);
+	background:    linear-gradient(#6aa84f, #274e13 50%, #6aa84f);
+	border:        1px solid #000;
+	border-radius: 5px;	
+	box-shadow:    0 1px 0 0 #444;
+	color:         #fff;
+	display:       inline-block;
+	width:         67px;
+	height:        58px;
+	font:          normal 700 24px/58px "Calibri", sans-serif;
+	text-align:    center;
+	text-shadow:   1px 1px 0 #000;
+}
+
+#visor{
+	border-radius: 3px;
+	text-align: right;
+}
+
+table{
+	border: 3px solid;
+	width:500px;
+}
+
